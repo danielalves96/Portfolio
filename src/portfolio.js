@@ -222,7 +222,7 @@ const bigProjects = {
     {
       image: require("./assets/images/madeira.png"),
       projectName: "MadeiraMadeira",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "A maior loja online de produtos para casa do Brasil!",
       footerLink: [
         {
           name: "Ver Website",
@@ -234,7 +234,7 @@ const bigProjects = {
     {
       image: require("./assets/images/clinica.png"),
       projectName: "Clincarx",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      projectDesc: "A Clinicarx é uma plataforma online de serviços de saúde padronizados e digitais para farmácias e consultórios.",
       footerLink: [
         {
           name: "Ver Website",
