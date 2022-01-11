@@ -182,10 +182,17 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Desenvolvedor Especialista FrontEnd",
+      company: "Gazin (Gazin Tech)",
+      companylogo: require("./assets/images/gazinLogo.png"),
+      date: "Outubro 2021 – o momento",
+      desc: "Atuo como desenvolvedor web especialista Front-end, predominantemente com a biblioteca React utilizando typescript, Chakra UI, NextJS dentre outras tecnologias mais utilizadas na atualidade."
+    },
+    {
       role: "Analista de sistemas - Especialista FrontEnd",
       company: "MadeiraMadeira",
       companylogo: require("./assets/images/madeiramadeira.png"),
-      date: "Julho 2021 – o momento",
+      date: "Julho 2021 – Outubro 2021",
       desc: "Atuo como desenvolvedor web especialista Front-end, predominantemente com a biblioteca React utilizando typescript."
     },
     {
@@ -219,6 +226,18 @@ const bigProjects = {
   title: "Grandes projetos",
   subtitle: "ALGUMAS STARTUPS E EMPRESAS QUE AJUDEI COM SUAS TECNOLOGIAS",
   projects: [
+    {
+      image: require("./assets/images/gazin.png"),
+      projectName: "Gazin",
+      projectDesc: "E-Commerce Gazin. A Gazin vem há 56 anos oferecendo o melhor em soluções no varejo e atacado.",
+      footerLink: [
+        {
+          name: "Ver Website",
+          url: "https://www.gazin.com.br/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/madeira.png"),
       projectName: "MadeiraMadeira",
@@ -361,7 +380,7 @@ const podcastSection = {
 };
 
 const contactInfo = {
-  title: emoji("Entre em contato comigo ☎️"),
+  title: emoji("Entre em contato comigo"),
   subtitle:
     "DISCUTIR UM PROJETO OU APENAS QUER DIZER OI? MINHA CAIXA DE ENTRADA ESTÁ ABERTA PARA TODOS.",
   number: "+55 (41) 984616181",
