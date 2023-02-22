@@ -6,9 +6,9 @@ const illustration = {
 
 const greeting = {
   username: "Daniel Luiz Alves",
-  title: "Olá! Sou Daniel",
+  title: "Olá! Sou Daniel!",
   subTitle: emoji(
-    "Um desenvolvedor de software Full Stack 🚀 com experiência na construção de aplicativos Web e móveis com JavaScript / Reactjs / Nodejs / React Native e algumas outras bibliotecas e estruturas interessantes."
+    "Um desenvolvedor de software Full Stack com experiência na construção de aplicativos Web e móveis com JavaScript / Reactjs / Nodejs / React Native e algumas outras bibliotecas e estruturas interessantes."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -21,7 +21,7 @@ const socialMediaLinks = {
   github: "https://github.com/danielalves96",
   linkedin: "https://www.linkedin.com/in/daniel-luiz-alves-791a7911a/",
   gmail: "daniel.xcoders@gmail.com",
-  // gitlab: "https://gitlab.com/saadpasta",
+  instagram: "https://www.instagram.com/capivara.dev/",
   // facebook: "https://www.facebook.com/saad.pasta7",
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
@@ -37,10 +37,10 @@ const skillsSection = {
   subTitle: "DESENVOLVEDOR FULL STACK ESPECIALISTA FRONT-END",
   skills: [
     emoji(
-      "⚡ Desenvolvo interfaces de usuário / front-end altamente interativas para seus aplicativos da web e móveis;"
+      "- Desenvolvo interfaces de usuário / front-end altamente interativas para seus aplicativos da web e móveis;"
     ),
-    emoji("⚡ Desenvolvo aplicações web e mobile completas;"),
-    emoji("⚡ Desenvolvo API's para consumos externos, dentre outros.")
+    emoji("- Desenvolvo aplicações web e mobile completas;"),
+    emoji("- Desenvolvo API's para consumos externos, dentre outros.")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -162,7 +162,7 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Web Design", //Insert stack or technology you have experience in
-      progressPercentage: "98%" //Insert relative proficiency in percentage
+      progressPercentage: "99%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Backend",
@@ -182,11 +182,18 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Senior Software Engineer",
+      company: "GamersClub",
+      companylogo: require("./assets/images/gcLogo.png"),
+      date: "Novembro 2022 – o momento",
+      desc: "Atuo como engenheiro de software sênior especialista Front-end, predominantemente com a biblioteca React utilizando typescript, NextJS dentre outras tecnologias mais utilizadas na atualidade."
+    },
+    {
       role: "Desenvolvedor Especialista FrontEnd",
       company: "Gazin (Gazin Tech)",
       companylogo: require("./assets/images/gazinLogo.png"),
-      date: "Outubro 2021 – o momento",
-      desc: "Atuo como desenvolvedor web especialista Front-end, predominantemente com a biblioteca React utilizando typescript, Chakra UI, NextJS dentre outras tecnologias mais utilizadas na atualidade."
+      date: "Outubro 2021 – Novembro 2022",
+      desc: "Atuava como desenvolvedor web especialista Front-end, predominantemente com a biblioteca React utilizando typescript, Chakra UI, NextJS dentre outras tecnologias mais utilizadas na atualidade."
     },
     {
       role: "Analista de sistemas - Especialista FrontEnd",
@@ -195,13 +202,13 @@ const workExperiences = {
       date: "Julho 2021 – Outubro 2021",
       desc: "Atuo como desenvolvedor web especialista Front-end, predominantemente com a biblioteca React utilizando typescript."
     },
-    {
-      role: "Co-Fundador & Desenvolvedor Full Stack ",
-      company: "SND Music Share",
-      companylogo: require("./assets/images/sndLogo.png"),
-      date: "Março 2021 – o momento",
-      desc: "Fundador e desenvolvedor Full-stack da empresa que promete ser a maior intermediadora entre produtores de música eletrônica e gravadoras do mundo. Atuo principalmente como desenvolvedor Full-stack e web designer utilizando linguagens e ferramentas como: ReactJs, React Native, NodeJs, PostgreSQL, KnexJs, Typescript, JavaScript, Docker, Figma, entre outras."
-    },
+    // {
+    //   role: "Co-Fundador & Desenvolvedor Full Stack ",
+    //   company: "SND Music Share",
+    //   companylogo: require("./assets/images/sndLogo.png"),
+    //   date: "Março 2021 – o momento",
+    //   desc: "Fundador e desenvolvedor Full-stack da empresa que promete ser a maior intermediadora entre produtores de música eletrônica e gravadoras do mundo. Atuo principalmente como desenvolvedor Full-stack e web designer utilizando linguagens e ferramentas como: ReactJs, React Native, NodeJs, PostgreSQL, KnexJs, Typescript, JavaScript, Docker, Figma, entre outras."
+    // },
     {
       role: "Desenvedor Full Stack",
       company: "Clinicarx",
@@ -226,6 +233,18 @@ const bigProjects = {
   title: "Grandes projetos",
   subtitle: "ALGUMAS STARTUPS E EMPRESAS QUE AJUDEI COM SUAS TECNOLOGIAS",
   projects: [
+    {
+      image: require("./assets/images/gc.png"),
+      projectName: "GamersClub",
+      projectDesc: "A Gamers Club é a maior plataforma de esports do Brasil. Aqui você vive o Game. Entrar Criar Conta. Próximos campeonatos.",
+      footerLink: [
+        {
+          name: "Ver Website",
+          url: "https://gamersclub.com.br/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
     {
       image: require("./assets/images/gazin.png"),
       projectName: "Gazin",
